@@ -88,52 +88,53 @@ int main() {
 
 /*prineira carta*/
 
-    printf(" ----- Resultados da primeira carta ----- \n");
+    printf(" ----- Resultados da primeira carta e segunda carta ----- \n");
         printf("\n");
-    printf("Estado: %s \n", estado1);
-        printf("\n");
-    printf("Codigo: %s \n", codi1);
-        printf("\n");
-    printf("Cidade: %s \n", cidade1);
-        printf("\n");
-    printf("População: %lu\n", popu1);
-        printf("\n");
-    printf("Area: %.2f km2\n", area1);
-        printf("\n");
-    printf("Pib: R$ %.2f bilhões \n", pib1);
-        printf("\n");
-    printf("Número de Pontos Turísticos: %d \n", pnt1);
-        printf("\n");
-//inf adicionais
-    printf("Densidade Populacional: %.2f \n", DensidadePopu1);
-        printf("\n");
-    printf("PIB per Capita: %.2f \n", PIBperCap1);
 
-/*fim da primeira crt e inicio da sgd*/
+    printf("Estado 1: %s \n", estado1);
+        printf("\n");
+    printf("Estado 2: %s\n", estd2);
+        printf("\n");
 
+    printf("Codigo 1: %s \n", codi1);
         printf("\n");
-    printf(" ----- resultados da segunda carta ----- \n");
+    printf("Codigo 2: %s\n", codigo2);
         printf("\n");
-    printf("Estado: %s\n", estd2);
+
+    printf("Cidade 1: %s \n", cidade1);
         printf("\n");
-    printf("Codigo: %s\n", codigo2);
+    printf("Cidade 2: %s\n", cidade2);
         printf("\n");
-    printf("Cidade: %s\n", cidade2);
+
+    printf("População 1: %lu\n", popu1);
         printf("\n");
-    printf("População: %lu\n", popu2);
+    printf("População 2: %lu\n", popu2);
         printf("\n");
-    printf("Area: %.2f km2\n", area2);
+
+    printf("Area 1: %.2f km2\n", area1);
         printf("\n");
-    printf("Pib: R$ %.2f bilhões \n", pib2);
+    printf("Area 2: %.2f km2\n", area2);
         printf("\n");
-    printf("Número de Pontos Turísticos: %d \n", pntc2);
+
+    printf("Pib 1: R$ %.2f bilhões \n", pib1);
         printf("\n");
-//inf adicionais
-    printf("Densidade Populacional: %.2f \n", DensiPopulacional2);
+    printf("Pib 2: R$ %.2f bilhões \n", pib2);
         printf("\n");
-    printf("PIB per Capita: %.2f \n", PIBpc2);
+
+    printf("Número de Pontos Turísticos 1: %d \n", pnt1);
         printf("\n");
-/*fim da segunda*/
+    printf("Número de Pontos Turísticos 2: %d \n", pntc2);
+        printf("\n");
+
+    printf("Densidade Populacional 1: %.2f \n", DensidadePopu1);
+        printf("\n");
+    printf("Densidade Populacional 2: %.2f \n", DensiPopulacional2);
+        printf("\n");
+
+    printf("PIB per Capita 1: %.2f \n", PIBperCap1);
+        printf("\n");
+    printf("PIB per Capita 2: %.2f \n", PIBpc2);
+        printf("\n");
 //calculo de comparação
 
     SuperPoder1 = popu1 + area1 + pib1 + pnt1 + PIBperCap1 + (1.0 / DensidadePopu1);
